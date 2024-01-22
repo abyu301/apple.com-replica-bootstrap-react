@@ -1,6 +1,6 @@
 import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // Home page
 import Navigation from "./Components/Nav/Nav";
@@ -23,7 +23,7 @@ import "./css/styles.css";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <div>
         <Navigation />
         <Switch>
@@ -40,7 +40,7 @@ function App() {
         </Switch>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 

@@ -4,8 +4,9 @@ import Four04 from "../Four04/Four04";
 
 const Productpage = () => {
   const [products, setProducts] = useState([]);
-  console.log(first)
+  // console.log(useParams);
   const { productid } = useParams();
+  // It allows you to access parameters from the current route in a React component.
 
   useEffect(() => {
     fetch("/iphones.json")

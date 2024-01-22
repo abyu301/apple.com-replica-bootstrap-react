@@ -1,0 +1,23 @@
+.rating-result{
+    background: #fafafa;
+    padding: 10px;
+}
+.rating-wrapper {
+	text-align: center;
+    background: #cccccc;
+    padding: 30px;
+}
+.rating-wrapper button {
+	padding: 5px 20px;
+	margin: 10px;
+	color: white;
+    border-radius: 4px;
+    font-weight: 400;
+    border: 0px;
+}
+.rating-wrapper button.postive{
+	background: #06c;
+}
+.rating-wrapper button.negative{
+	background: #FF5722;
+}
